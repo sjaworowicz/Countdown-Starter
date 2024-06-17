@@ -125,6 +125,6 @@ var oneMinute = ('60,000 milliseconds/minute');
   /* ----------- PART 4 ----------- */
   // Call the function getRemainingTime (1 line of code)
   
-      var getRemainingTime = ('');
+      var getRemainingTime = ('1000');
 
   /* ----------- END PART 4 ----------- */
