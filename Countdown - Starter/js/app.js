@@ -25,12 +25,15 @@ const months = [
   /* ----------- PART 1 ----------- */
   // Create a variable called giveaway to hold the element with class 'giveaway' (1 line of code)
   
+  var x='giveaway';
   
   // Create a variable called deadline to hold the element with class 'deadline' (1 line of code)
   
+  var y='deadline';
   
   // Create a variable called items to hold the h4 element within the element with class 'deadline-format' (1 line of code)
   
+  var z='deadline-format'
   
   /* ----------- END PART 1 ----------- */
   
@@ -45,10 +48,15 @@ const months = [
   /* ----------- PART 2 ----------- */
   // Create a variable called year that holds the futureDate's full year(1 line of code)
   
+  let currentDate = new Date(); let currentYear = currentDate.getFullYear(); console.log(currentYear);
+
   // Create a variable called hours that holds the futureDate's hours(1 line of code)
+
+  const currDate = new Date(); const milliseconds = currentDate.getMilliseconds(); console.log(milliseconds);
   
   // Create a variable called minutes that holds the futureDate's minutes (1 line of code)
   
+  const currentMinute = currentDate.getMinutes();
   
   /* ----------- END PART 2 ----------- */
   
@@ -75,9 +83,16 @@ const months = [
       
   // Create a variable called oneDay and set it equal to the math equation that figures out how many milliseconds are in 1 day (1 line of code)
   
+var oneDay = ('1000*60*60*24');
+
   // Create a variable called oneHour and set it equal to the math equation that figures out how many milliseconds are in 1 hour (1 line of code)
+
+  var oneHour = ('1000*60*60');
   
   // Create a variable called oneMinute and set it equal to the math equation that figures out how many milliseconds are in 1 minute (1 line of code)
+
+var oneMinute = ('60,000 milliseconds/minute');
+
   /* ----------- END PART 3 ----------- */
   
       let days = t / oneDay;
@@ -110,4 +125,6 @@ const months = [
   /* ----------- PART 4 ----------- */
   // Call the function getRemainingTime (1 line of code)
   
+      var getRemainingTime = ('');
+
   /* ----------- END PART 4 ----------- */
